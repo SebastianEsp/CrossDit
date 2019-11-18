@@ -1,0 +1,105 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(35, 38, 36);
+    color: white;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.newspaper {
+    position: absolute;
+  }
+
+#background{
+    height: 100vh;
+    z-index: 1;
+}
+
+#bolig{
+    z-index: -1;
+    width: 20%;
+    margin-left: 3.1%;
+    margin-top: 17.7%;
+}
+
+#wolf{
+    z-index: -1;
+    width: 18%;
+    margin-left: 4.1%;
+    margin-top: 17.3%;
+}
+
+#netflix{
+    z-index: -1;
+    width: 20%;
+    margin-left: 3.1%;
+    margin-top: 17.7%;
+}
+
+#scooters{
+    z-index: -1;
+    width: 20%;
+    margin-left: 3.1%;
+    margin-top: 17.7%;
+}
+
+#metro{
+    z-index: -1;
+    width: 18%;
+    margin-left: 4.1%;
+    margin-top: 17.3%;
+}
+
+#fake-icon{
+    display: none;
+    z-index: -1;
+    width: 50%;
+    margin-top: 48%;
+    margin-left: 10%;
+    -webkit-transform:rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+#true-icon{
+    display: none;
+    z-index: -1;
+    width: 50%;
+    margin-top: 48%;
+    margin-left: 10%;
+    -webkit-transform:rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+#lies{
+    margin-top: 10vh;
+}
+
+#lies h2, #answers h2{
+    text-align: center;
+}
+
+#answers{
+    margin-top: 10vh;
+    display: none;
+}
+
+.selectBorder{
+    border: 5px solid green;
+}
+
+.wrongSelectBorder{
+    border: 5px solid red;
+}
